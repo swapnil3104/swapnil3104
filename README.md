@@ -1,11 +1,15 @@
 <div align="center">
 
-<!-- Phase 1: Waving Gradient Capsule Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A101F,50:A78BFA,100:22D3EE&height=180&section=header&text=Swapnil%20Patil&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Computer%20Science%20Engineer%20%7C%20AI/ML%20%26%20Product%20Designer&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+<!-- Phase 1: Animated 3D Custom Hero Banner -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./header_hero_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./header_hero_light.svg">
+  <img alt="Swapnil Patil - Aspiring AI/ML Engineer" src="./header_hero_dark.svg" width="100%">
+</picture>
 
-<br/>
+<br/><br/>
 
-<!-- Phase 2: Animated Theme-Aware Live Terminal HUD Banner -->
+<!-- Phase 2: Animated Live Terminal HUD Banner -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
