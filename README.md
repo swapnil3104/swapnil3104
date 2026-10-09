@@ -171,16 +171,9 @@ sys.philosophy: "Solving real-world problems through clean code, data, & creativ
   <img alt="Section Divider" src="./divider_dark.svg" width="100%">
 </picture>
 
-### 🏆 GitHub Trophies & Achievements
+### 🏆 GitHub Achievements
 
 <div align="center">
-
-<!-- Clickable Trophies Banner -->
-<a href="https://github.com/swapnil3104?tab=achievements">
-  <img src="https://github-profile-trophy-zeta.vercel.app/?username=swapnil3104&theme=darkhub&no-frame=true&no-bg=true&margin-w=15&row=1&column=6" width="100%" alt="Swapnil's GitHub Trophies" />
-</a>
-
-<br/><br/>
 
 <!-- Official GitHub Achievement Badges -->
 <p align="center">
