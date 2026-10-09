@@ -1,7 +1,11 @@
 <div align="center">
 
-<!-- Phase 1: Animated 3D Custom Hero Banner -->
-<img alt="Swapnil Patil - Aspiring AI/ML Engineer" src="./header_hero_animated.gif" width="100%">
+<!-- Phase 1: Animated 3D Custom Hero Banner with Vector Typing Text -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./header_hero_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./header_hero_light.svg">
+  <img alt="Swapnil Patil - Aspiring AI/ML Engineer" src="./header_hero_dark.svg" width="100%">
+</picture>
 
 <br/><br/>
 

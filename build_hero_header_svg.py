@@ -1,14 +1,31 @@
 import os
 import base64
+import math
+import colorsys
+from PIL import Image, ImageDraw, ImageFilter
 
 def generate_hero_headers():
     target_dir = os.path.dirname(os.path.abspath(__file__))
-    img_path = os.path.join(target_dir, 'header_hero.png')
+    
+    # 1. Prepare clean background image without static left text
+    clean_bg_path = os.path.join(target_dir, 'header_hero_clean_left.png')
+    if not os.path.exists(clean_bg_path):
+        base_img_path = os.path.join(target_dir, 'header_hero.png')
+        img = Image.open(base_img_path).convert('RGBA')
+        draw = ImageDraw.Draw(img)
+        for y in range(448):
+            r = int(12 + (19 - 12) * (y / 448.0))
+            g = int(14 + (21 - 14) * (y / 448.0))
+            b = int(24 + (34 - 24) * (y / 448.0))
+            draw.line([(0, y), (525, y)], fill=(r, g, b, 255))
+        img.save(clean_bg_path)
 
-    with open(img_path, 'rb') as f:
+    # Encode base64
+    with open(clean_bg_path, 'rb') as f:
         img_b64 = base64.b64encode(f.read()).decode('utf-8')
         data_uri = f'data:image/png;base64,{img_b64}'
 
+    # Build Animated SVG dark & light versions with SVG Typing Animation
     hero_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 448" width="100%" height="100%">
   <defs>
     <!-- Text Gradients -->
@@ -30,135 +47,104 @@ def generate_hero_headers():
       <stop offset="100%" stop-color="#38BDF8"/>
     </linearGradient>
 
-    <radialGradient id="avatar-aura" cx="78%" cy="48%" r="42%">
-      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.38"/>
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="octocat-aura" cx="62%" cy="80%" r="20%">
-      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    <radialGradient id="rog-rgb-glow" cx="885" cy="320" r="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EF4444" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#EF4444" stop-opacity="0"/>
     </radialGradient>
 
     <style>
-      .sans {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }}
-      .mono {{ font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }}
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&amp;family=Fira+Code:wght@600&amp;display=swap');
+      
+      .sans {{ font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }}
+      .mono {{ font-family: 'Fira Code', Consolas, monospace; }}
       .bold {{ font-weight: 800; }}
+      .extrabold {{ font-weight: 900; }}
 
-      /* Animations */
+      /* Typing Animation Keyframes */
+      @keyframes type-reveal-1 {{
+        0%, 5% {{ clip-path: inset(0 100% 0 0); }}
+        20%, 100% {{ clip-path: inset(0 0% 0 0); }}
+      }}
+      @keyframes type-reveal-2 {{
+        0%, 22% {{ clip-path: inset(0 100% 0 0); }}
+        45%, 100% {{ clip-path: inset(0 0% 0 0); }}
+      }}
+      @keyframes type-reveal-3 {{
+        0%, 48% {{ clip-path: inset(0 100% 0 0); }}
+        70%, 100% {{ clip-path: inset(0 0% 0 0); }}
+      }}
+      @keyframes type-reveal-4 {{
+        0%, 72% {{ clip-path: inset(0 100% 0 0); }}
+        92%, 100% {{ clip-path: inset(0 0% 0 0); }}
+      }}
+
+      @keyframes blink-cursor {{
+        0%, 100% {{ opacity: 1; }}
+        50% {{ opacity: 0; }}
+      }}
+
       @keyframes float-cone {{
         0%, 100% {{ transform: translateY(0px) rotate(0deg); }}
-        50% {{ transform: translateY(-12px) rotate(8deg); }}
+        50% {{ transform: translateY(-10px) rotate(6deg); }}
       }}
 
-      @keyframes float-knot-1 {{
-        0%, 100% {{ transform: translateY(0px) rotate(0deg) scale(1); }}
-        50% {{ transform: translateY(-10px) rotate(-10deg) scale(1.05); }}
+      @keyframes rog-color-shift {{
+        0% {{ filter: hue-rotate(0deg); }}
+        100% {{ filter: hue-rotate(360deg); }}
       }}
 
-      @keyframes float-knot-2 {{
-        0%, 100% {{ transform: translateY(0px) rotate(0deg); }}
-        50% {{ transform: translateY(-8px) rotate(12deg); }}
-      }}
-
-      @keyframes rog-pulse {{
-        0%, 100% {{ opacity: 0.7; transform: scale(1); filter: drop-shadow(0 0 4px #EF4444); }}
-        50% {{ opacity: 1; transform: scale(1.18); filter: drop-shadow(0 0 14px #F43F5E); }}
-      }}
-
-      @keyframes keyboard-glow {{
-        0%, 100% {{ opacity: 0.5; }}
-        50% {{ opacity: 0.95; filter: drop-shadow(0 0 8px #38BDF8); }}
-      }}
-
-      @keyframes octocat-bounce {{
-        0%, 100% {{ transform: translateY(0px); }}
-        50% {{ transform: translateY(-6px); }}
-      }}
-
-      @keyframes aura-pulse {{
-        0%, 100% {{ opacity: 0.6; transform: scale(0.98); }}
-        50% {{ opacity: 1; transform: scale(1.04); }}
-      }}
-
-      @keyframes text-shimmer {{
-        0%, 100% {{ opacity: 0.92; }}
-        50% {{ opacity: 1; filter: drop-shadow(0 0 8px rgba(192, 132, 252, 0.6)); }}
-      }}
-
-      @keyframes pulse-live {{
-        0%, 100% {{ opacity: 1; transform: scale(1); }}
-        50% {{ opacity: 0.3; transform: scale(0.85); }}
-      }}
-
-      /* Classes */
-      .cone-anim {{ animation: float-cone 4s ease-in-out infinite; transform-origin: 405px 145px; }}
-      .knot1-anim {{ animation: float-knot-1 5.5s ease-in-out infinite; transform-origin: 565px 60px; }}
-      .knot2-anim {{ animation: float-knot-2 6.5s ease-in-out infinite 1s; transform-origin: 515px 490px; }}
+      .type-line-1 {{ animation: type-reveal-1 6s infinite ease-in-out; }}
+      .type-line-2 {{ animation: type-reveal-2 6s infinite ease-in-out; }}
+      .type-line-3 {{ animation: type-reveal-3 6s infinite ease-in-out; }}
+      .type-line-4 {{ animation: type-reveal-4 6s infinite ease-in-out; }}
       
-      .rog-logo {{ animation: rog-pulse 2.2s ease-in-out infinite; transform-origin: 865px 705px; }}
-      .kbd-light {{ animation: keyboard-glow 3s ease-in-out infinite; }}
-      .octocat-anim {{ animation: octocat-bounce 4s ease-in-out infinite; transform-origin: 625px 840px; }}
-      
-      .aura-anim {{ animation: aura-pulse 4s ease-in-out infinite; transform-origin: 790px 210px; }}
-      .text-anim {{ animation: text-shimmer 3s ease-in-out infinite; }}
-      .live-dot {{ animation: pulse-live 2s infinite ease-in-out; transform-origin: 975px 30px; }}
+      .cursor {{ animation: blink-cursor 0.8s infinite; }}
+      .cone-float {{ animation: float-cone 4.5s infinite ease-in-out; transform-origin: 405px 60px; }}
+      .rog-rgb {{ animation: rog-color-shift 4s linear infinite; }}
     </style>
   </defs>
 
-  <!-- Base High-Res Hero Image -->
+  <!-- Clean Base Hero PNG (Boy avatar stays 100% static) -->
   <image href="{data_uri}" x="0" y="0" width="1024" height="448"/>
 
-  <!-- Background Ambient Glowing Radial Field behind Avatar -->
-  <rect x="0" y="0" width="1024" height="448" fill="url(#avatar-aura)" class="aura-anim" style="mix-blend-mode: screen;"/>
-  <rect x="0" y="0" width="1024" height="448" fill="url(#octocat-aura)" class="aura-anim" style="mix-blend-mode: screen;"/>
+  <!-- SVG VECTOR ANIMATED TYPING TEXT -->
 
-  <!-- FULL IMAGE ANIMATION OVERLAYS -->
-  
-  <!-- 1. Floating 3D Cone (Top Left) -->
-  <g class="cone-anim">
-    <circle cx="406" cy="144" r="24" fill="#A855F7" opacity="0.25" filter="blur(4px)"/>
+  <!-- Line 1: Hi! I'm -->
+  <g class="type-line-1">
+    <text x="45" y="90" class="sans extrabold" font-size="46" fill="#FFFFFF" letter-spacing="-1">Hi! <tspan fill="url(#text-purple-grad)">I’m</tspan></text>
   </g>
 
-  <!-- 2. Floating 3D Torus Knots (Top & Mid Right) -->
-  <g class="knot1-anim">
-    <circle cx="580" cy="50" r="30" fill="#C084FC" opacity="0.2" filter="blur(6px)"/>
-  </g>
-  
-  <g class="knot2-anim">
-    <circle cx="516" cy="500" r="22" fill="#818CF8" opacity="0.2" filter="blur(5px)"/>
+  <!-- Line 2: Swapnil Patil. -->
+  <g class="type-line-2">
+    <text x="45" y="165" class="sans extrabold" font-size="56" fill="url(#name-grad)" letter-spacing="-1.5">Swapnil Patil.</text>
   </g>
 
-  <!-- 3. ROG Strix Laptop Glowing Logo & Keyboard Light Bar -->
-  <circle cx="865" cy="705" r="28" fill="#EF4444" opacity="0.3" class="rog-logo"/>
-  <rect x="655" y="940" width="280" height="8" fill="#38BDF8" opacity="0.4" class="kbd-light" rx="4"/>
-
-  <!-- 4. 3D Octocat Bounce Aura -->
-  <g class="octocat-anim">
-    <circle cx="625" cy="840" r="45" fill="#818CF8" opacity="0.15"/>
+  <!-- Horizontal Accent Line -->
+  <g class="type-line-2">
+    <line x1="45" y1="200" x2="430" y2="200" stroke="#334155" stroke-width="2.5" stroke-linecap="round"/>
   </g>
 
-  <!-- 5. TEXT ANIMATION ENHANCEMENT OVERLAYS -->
-  <!-- Glowing Overlay for "I'm" -->
-  <g class="text-anim">
-    <rect x="115" y="48" width="100" height="52" fill="none"/>
+  <!-- Line 3: Aspiring AI/ML Engineer -->
+  <g class="type-line-3">
+    <text x="45" y="275" class="sans extrabold" font-size="38" fill="#FFFFFF" letter-spacing="-0.5">Aspiring <tspan fill="url(#aiml-grad)">AI/ML Engineer</tspan></text>
   </g>
 
-  <!-- Glowing Overlay for "Swapnil Patil." -->
-  <g class="text-anim">
-    <rect x="12" y="120" width="440" height="70" fill="none"/>
+  <!-- Line 4: Subtitle -->
+  <g class="type-line-4">
+    <text x="45" y="325" class="sans" font-size="15" fill="#94A3B8" letter-spacing="0">with a passion for solving problems that involve creativity and innovation</text>
+    <rect x="525" y="312" width="8" height="18" fill="#22D3EE" class="cursor"/>
   </g>
 
-  <!-- Glowing Overlay for "AI/ML Engineer" -->
-  <g class="text-anim">
-    <rect x="12" y="300" width="490" height="80" fill="none"/>
+
+  <!-- Floating 3D Cone (Top Left) -->
+  <g class="cone-float">
+    <circle cx="405" cy="65" r="18" fill="#C084FC" opacity="0.15"/>
   </g>
 
   <!-- Top Right LIVE Status Tag Overlay -->
   <g transform="translate(885, 18)">
     <rect x="0" y="0" width="122" height="24" rx="12" fill="#0F172A" stroke="#334155" stroke-width="1.2" opacity="0.95"/>
-    <circle cx="15" cy="12" r="4" fill="#10B981" class="live-dot"/>
+    <circle cx="15" cy="12" r="4" fill="#10B981" class="cursor"/>
     <text x="26" y="16" class="mono bold" font-size="10" fill="#10B981" letter-spacing="0.5">SYS.ACTIVE</text>
   </g>
 </svg>'''
@@ -168,7 +154,7 @@ def generate_hero_headers():
     with open(os.path.join(target_dir, 'header_hero_light.svg'), 'w', encoding='utf-8') as f:
         f.write(hero_svg)
 
-    print("Header hero SVGs with full image and text animations updated successfully.")
+    print("Header hero SVGs generated with vector typing text animation.")
 
 if __name__ == '__main__':
     generate_hero_headers()
