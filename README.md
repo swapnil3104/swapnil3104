@@ -1,11 +1,7 @@
 <div align="center">
 
 <!-- Phase 1: Animated 3D Custom Hero Banner -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./header_hero_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./header_hero_light.svg">
-  <img alt="Swapnil Patil - Aspiring AI/ML Engineer" src="./header_hero_dark.svg" width="100%">
-</picture>
+<img alt="Swapnil Patil - Aspiring AI/ML Engineer" src="./header_hero_animated.gif" width="100%">
 
 <br/><br/>
 
