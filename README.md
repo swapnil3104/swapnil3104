@@ -43,7 +43,7 @@ sys.role: Computer Science Engineer
 sys.specializations:
   - Artificial Intelligence & Machine Learning (AI/ML)
   - Data Analytics & Predictive Modeling
-  - UI/UX & Interactive Front-End Development
+  - Product Design & Interactive Front-End Development
 sys.status: "Building + Learning + Shipping 🚀"
 sys.philosophy: "Solving real-world problems through clean code, data, & creative UI."
 ```
@@ -111,7 +111,7 @@ sys.philosophy: "Solving real-world problems through clean code, data, & creativ
   <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
 
-#### 🎨 UI/UX & 3D Modeling
+#### 🎨 Product Designer & 3D Modeling
 <p>
   <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
   <img src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white" alt="Photoshop" />
@@ -138,7 +138,7 @@ sys.philosophy: "Solving real-world problems through clean code, data, & creativ
 ### 🏆 GitHub Trophies & Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=swapnil3104&theme=darkhub&no-frame=true&no-bg=true&margin-w=15&row=1&column=6" width="100%" alt="Swapnil's GitHub Trophies" />
+  <img src="https://github-profile-trophy-zeta.vercel.app/?username=swapnil3104&theme=darkhub&no-frame=true&no-bg=true&margin-w=15&row=1&column=6" width="100%" alt="Swapnil's GitHub Trophies" />
 </div>
 
 <br/>
@@ -171,8 +171,8 @@ sys.philosophy: "Solving real-world problems through clean code, data, & creativ
 
 <br/>
 
-<!-- Animated Activity Graph Visualizer -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=swapnil3104&theme=react-dark&bg_color=0A101F&color=22D3EE&line=A78BFA&point=10B981&area=true&hide_border=true" width="100%" alt="Swapnil's GitHub Activity Graph" />
+<!-- Activity & Profile Dashboard -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=swapnil3104&theme=2077" width="100%" alt="Swapnil's GitHub Activity & Profile Dashboard" />
 
 <br/>
 

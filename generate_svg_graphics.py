@@ -241,7 +241,7 @@ def create_dark_svg():
     <g transform="translate(25, 124)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#94A3B8">Focus</text>
       <line x1="60" y1="-4" x2="270" y2="-4" class="dotted"/>
-      <text x="280" y="0" class="mono" font-size="13" fill="#A78BFA">AI / ML · Data Analytics · UI/UX</text>
+      <text x="280" y="0" class="mono" font-size="13" fill="#A78BFA">AI / ML · Data Analytics · Product Designer</text>
     </g>
 
     <!-- Row 4: Status Pill -->
@@ -274,7 +274,7 @@ def create_dark_svg():
 
     <!-- Metric Bar 3: UI/UX & 3D Design -->
     <g transform="translate(25, 264)">
-      <text x="0" y="0" class="mono" font-size="11" fill="#CBD5E1">UI/UX &amp; 3D Modeling</text>
+      <text x="0" y="0" class="mono" font-size="11" fill="#CBD5E1">Product Design &amp; 3D Modeling</text>
       <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#10B981">88%</text>
       <rect x="245" y="-10" width="410" height="12" rx="6" fill="#1E293B"/>
       <rect x="245" y="-10" width="360" height="12" rx="6" fill="url(#bar-ux-grad)"/>
@@ -527,7 +527,7 @@ def create_light_svg():
     <g transform="translate(25, 124)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#64748B">Focus</text>
       <line x1="60" y1="-4" x2="270" y2="-4" class="dotted"/>
-      <text x="280" y="0" class="mono" font-size="13" fill="#7C3AED">AI / ML · Data Analytics · UI/UX</text>
+      <text x="280" y="0" class="mono" font-size="13" fill="#7C3AED">AI / ML · Data Analytics · Product Designer</text>
     </g>
 
     <g transform="translate(25, 152)">
@@ -559,7 +559,7 @@ def create_light_svg():
 
     <!-- Metric Bar 3: UI/UX & 3D Design -->
     <g transform="translate(25, 264)">
-      <text x="0" y="0" class="mono" font-size="11" fill="#334155">UI/UX &amp; 3D Modeling</text>
+      <text x="0" y="0" class="mono" font-size="11" fill="#334155">Product Design &amp; 3D Modeling</text>
       <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#059669">88%</text>
       <rect x="245" y="-10" width="410" height="12" rx="6" fill="#E2E8F0"/>
       <rect x="245" y="-10" width="360" height="12" rx="6" fill="url(#bar-ux-light)"/>
