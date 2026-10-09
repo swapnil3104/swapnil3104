@@ -1,26 +1,217 @@
-# 💫 About Me:
-👋 Hi, I'm Swapnil Patil<br>🚀 Computer Science Engineer passionate about AI/ML, UI/UX, and Data Analytics.<br>💻 I love building innovative projects, solving real-world problems, and exploring new technologies.<br>🌱 Currently learning, creating, and growing every day.
+<div align="center">
 
+<!-- Phase 1: Animated Theme-Aware Live Terminal HUD Banner -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img alt="Swapnil Patil - profile.sh --live" src="./dark.svg" width="100%">
+</picture>
 
-## 🌐 Socials:
+<br/><br/>
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram\&logoColor=white)](https://instagram.com/patilswap3104)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin\&logoColor=white)](https://linkedin.com/in/swapnil-sanjay-patil3104)
-[![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest\&logoColor=white)](https://pinterest.com/swapnilp3104)
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit\&logoColor=white)](https://reddit.com/user/u/Individual_Letter952)
-[![X](https://img.shields.io/badge/X-black.svg?logo=X\&logoColor=white)](https://x.com/PatilSwap3104)
-[![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?logo=mastodon\&logoColor=white)](https://mastodon.social)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail\&logoColor=white)](mailto:swapnilp3104@gmail.com)
+<!-- Social Badges -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/swapnil-sanjay-patil3104)
+&nbsp;&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/patilswap3104)
+&nbsp;&nbsp;
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/PatilSwap3104)
+&nbsp;&nbsp;
+[![Pinterest](https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white)](https://pinterest.com/swapnilp3104)
+&nbsp;&nbsp;
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://reddit.com/user/u/Individual_Letter952)
+&nbsp;&nbsp;
+[![Mastodon](https://img.shields.io/badge/Mastodon-6364FF?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social)
+&nbsp;&nbsp;
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:swapnilp3104@gmail.com)
 
+</div>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)   ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white) ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white) ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=swapnil3104&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=swapnil3104&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=swapnil3104&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+<br/>
 
----
-[![](https://komarev.com/ghpvc/?username=swapnil3104&icon=0&color=0)](https://visitcount.itsvg.in)
+<!-- Animated SVG Theme-Aware Section Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./divider_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./divider_light.svg">
+  <img alt="Section Divider" src="./divider_dark.svg" width="100%">
+</picture>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### ⚡ About Me
+
+```yaml
+sys.user: Swapnil Sanjay Patil
+sys.role: Computer Science Engineer
+sys.specializations:
+  - Artificial Intelligence & Machine Learning (AI/ML)
+  - Data Analytics & Predictive Modeling
+  - UI/UX & Interactive Front-End Development
+sys.status: "Building + Learning + Shipping 🚀"
+sys.philosophy: "Solving real-world problems through clean code, data, & creative UI."
+```
+
+<br/>
+
+<!-- Animated SVG Theme-Aware Section Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./divider_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./divider_light.svg">
+  <img alt="Section Divider" src="./divider_dark.svg" width="100%">
+</picture>
+
+### 🛠️ Tech Stack & Visual Ecosystem
+
+<!-- Unified SkillIcons Vector Graphics Grid -->
+<div align="center">
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,sklearn,cpp,c,js,react,vite,threejs,nodejs,php,html,css,postgres,mysql,sqlite,figma,ps,xd,blender,canva,git,github&perline=12" alt="Swapnil's Visual Tech Matrix" />
+  </a>
+</p>
+
+</div>
+
+<br/>
+
+#### 🧠 Artificial Intelligence, Machine Learning & Data Science
+<p>
+  <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly" />
+  <img src="https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue" alt="MLflow" />
+  <img src="https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda" />
+</p>
+
+#### 💻 Software & Web Engineering
+<p>
+  <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white" alt="Three.js" />
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white" alt="Web3.js" />
+  <img src="https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white" alt="WordPress" />
+</p>
+
+#### 🗄️ Databases & Systems
+<p>
+  <img src="https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+</p>
+
+#### 🎨 UI/UX & 3D Modeling
+<p>
+  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white" alt="Photoshop" />
+  <img src="https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6" alt="Adobe XD" />
+  <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="Blender" />
+  <img src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white" alt="Canva" />
+</p>
+
+#### 🛠️ Tools & Version Control
+<p>
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</p>
+
+<br/>
+
+<!-- Animated SVG Theme-Aware Section Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./divider_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./divider_light.svg">
+  <img alt="Section Divider" src="./divider_dark.svg" width="100%">
+</picture>
+
+### 🏆 GitHub Trophies & Achievements
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=swapnil3104&theme=darkhub&no-frame=true&no-bg=true&margin-w=15&row=1&column=6" width="100%" alt="Swapnil's GitHub Trophies" />
+</div>
+
+<br/>
+
+<!-- Animated SVG Theme-Aware Section Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./divider_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./divider_light.svg">
+  <img alt="Section Divider" src="./divider_dark.svg" width="100%">
+</picture>
+
+### 📊 GitHub Activity & Performance Metrics
+
+<!-- Streak Card -->
+<img src="https://streak-stats.demolab.com/?user=swapnil3104&theme=dark&background=0A101F&border=22D3EE&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=64748B&hide_border=false" width="100%" alt="Swapnil's GitHub Streak" />
+
+<br/><br/>
+
+<!-- Stats & Top Languages Side-by-Side -->
+<table border="0" width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://github-readme-stats.shion.dev/api?username=swapnil3104&theme=dark&bg_color=0A101F&title_color=22D3EE&text_color=F8FAFC&icon_color=10B981&border_color=1E293B&hide_rank=true&show_icons=true&include_all_commits=true" width="100%" alt="Swapnil's GitHub Stats" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=swapnil3104&theme=dark&bg_color=0A101F&title_color=22D3EE&text_color=F8FAFC&border_color=1E293B&layout=compact" width="100%" alt="Swapnil's Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- Animated Activity Graph Visualizer -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=swapnil3104&theme=react-dark&bg_color=0A101F&color=22D3EE&line=A78BFA&point=10B981&area=true&hide_border=true" width="100%" alt="Swapnil's GitHub Activity Graph" />
+
+<br/>
+
+> *Note: `hide_rank=true` is enabled because star-weighted GitHub rank metric can be inaccurate for actively growing accounts.*
+
+<br/>
+
+<!-- Animated SVG Theme-Aware Section Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./divider_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./divider_light.svg">
+  <img alt="Section Divider" src="./divider_dark.svg" width="100%">
+</picture>
+
+### 🐍 Contribution Activity (Snake Animation)
+
+<!-- Theme-Aware Snake Animation -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/swapnil3104/swapnil3104/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/swapnil3104/swapnil3104/output/github-contribution-grid-snake.svg">
+  <img alt="Swapnil's GitHub Contribution Snake" src="https://raw.githubusercontent.com/swapnil3104/swapnil3104/output/github-contribution-grid-snake-dark.svg" width="100%">
+</picture>
+
+<br/>
+
+<!-- Animated SVG Theme-Aware Section Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./divider_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./divider_light.svg">
+  <img alt="Section Divider" src="./divider_dark.svg" width="100%">
+</picture>
+
+<div align="center">
+
+<!-- Profile Visitor Counter -->
+![Profile Visitors](https://komarev.com/ghpvc/?username=swapnil3104&color=22D3EE&style=for-the-badge&label=PROFILE+VIEWS)
+
+<br/>
+
+<sub>⚡ Built with precision according to the GitHub Profile Master Pipeline</sub>
+
+</div>

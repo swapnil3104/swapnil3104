@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 480" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-grad-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="border-grad-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891B2" stop-opacity="0.9"/>
+      <stop offset="33%" stop-color="#0284C7" stop-opacity="0.9"/>
+      <stop offset="66%" stop-color="#7C3AED" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="cyan-purple-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891B2"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="bar-ai-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891B2"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="bar-dev-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="bar-ux-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+
+    <style>
+      .mono { font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
+      .bold { font-weight: 700; }
+      .dotted { stroke: #CBD5E1; stroke-width: 1.5; stroke-dasharray: 2 6; }
+      
+      @keyframes pulse {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.3; transform: scale(0.92); }
+      }
+      @keyframes radar-sweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes orbit-cw {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes orbit-ccw {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
+      }
+      @keyframes logo-morph {
+        0%, 30% { opacity: 1; transform: scale(1); }
+        33%, 63% { opacity: 0; transform: scale(0.75); }
+        66%, 96% { opacity: 0; transform: scale(0.75); }
+      }
+      @keyframes logo-morph-2 {
+        0%, 30% { opacity: 0; transform: scale(0.75); }
+        33%, 63% { opacity: 1; transform: scale(1); }
+        66%, 96% { opacity: 0; transform: scale(0.75); }
+      }
+      @keyframes logo-morph-3 {
+        0%, 63% { opacity: 0; transform: scale(0.75); }
+        66%, 96% { opacity: 1; transform: scale(1); }
+        100% { opacity: 0; transform: scale(0.75); }
+      }
+      @keyframes eq-bounce-1 {
+        0%, 100% { height: 8px; y: 337px; }
+        50% { height: 22px; y: 323px; }
+      }
+      @keyframes eq-bounce-2 {
+        0%, 100% { height: 20px; y: 325px; }
+        50% { height: 6px; y: 339px; }
+      }
+      @keyframes eq-bounce-3 {
+        0%, 100% { height: 12px; y: 333px; }
+        50% { height: 26px; y: 319px; }
+      }
+      @keyframes eq-bounce-4 {
+        0%, 100% { height: 24px; y: 321px; }
+        50% { height: 10px; y: 335px; }
+      }
+
+      .live-dot { animation: pulse 2s infinite ease-in-out; transform-origin: 1015px 26px; }
+      .radar { animation: radar-sweep 10s linear infinite; transform-origin: 190px 185px; }
+      .orbit-ring-1 { animation: orbit-cw 16s linear infinite; transform-origin: 190px 185px; }
+      .orbit-ring-2 { animation: orbit-ccw 22s linear infinite; transform-origin: 190px 185px; }
+
+      .morph-1 { animation: logo-morph 9s infinite ease-in-out; transform-origin: 145px 140px; }
+      .morph-2 { animation: logo-morph-2 9s infinite ease-in-out; transform-origin: 145px 140px; }
+      .morph-3 { animation: logo-morph-3 9s infinite ease-in-out; transform-origin: 145px 140px; }
+
+      .eq-bar-1 { animation: eq-bounce-1 1.2s infinite ease-in-out; }
+      .eq-bar-2 { animation: eq-bounce-2 0.9s infinite ease-in-out; }
+      .eq-bar-3 { animation: eq-bounce-3 1.5s infinite ease-in-out; }
+      .eq-bar-4 { animation: eq-bounce-4 1.1s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Main Outer Frame -->
+  <rect x="2" y="2" width="1176" height="476" rx="14" fill="url(#bg-grad-light)" stroke="url(#border-grad-light)" stroke-width="2.5"/>
+
+  <!-- Top macOS-style Terminal Header -->
+  <path d="M 2 14 C 2 7 7 2 14 2 L 1166 2 C 1173 2 1178 7 1178 14 L 1178 50 L 2 50 Z" fill="#E2E8F0"/>
+  <line x1="2" y1="50" x2="1178" y2="50" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Window Controls -->
+  <circle cx="24" cy="26" r="6" fill="#EF4444"/>
+  <circle cx="44" cy="26" r="6" fill="#F59E0B"/>
+  <circle cx="64" cy="26" r="6" fill="#10B981"/>
+
+  <!-- Center Header Title -->
+  <text x="590" y="31" text-anchor="middle" class="mono bold" font-size="13" fill="#475569" letter-spacing="1">profile.sh --live --graphical-hud</text>
+
+  <!-- Right Status Pill -->
+  <rect x="990" y="15" width="172" height="24" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <circle cx="1008" cy="27" r="4.5" fill="#DC2626" class="live-dot"/>
+  <text x="1020" y="31" class="mono bold" font-size="10" fill="#DC2626" letter-spacing="0.5">LIVE</text>
+  <text x="1058" y="31" class="mono" font-size="11" fill="#0891B2">@swapnil3104</text>
+
+  <!-- LEFT PANEL: VISUAL HUD & CYBER MATRIX -->
+  <g transform="translate(30, 70)">
+    <!-- Panel Box -->
+    <rect x="0" y="0" width="380" height="380" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+    
+    <!-- Header Labels -->
+    <rect x="15" y="14" width="105" height="22" rx="4" fill="#F1F5F9"/>
+    <text x="67" y="29" text-anchor="middle" class="mono bold" font-size="10" fill="#7C3AED" letter-spacing="1">CYBER.HUD</text>
+    <text x="365" y="29" text-anchor="end" class="mono" font-size="10" fill="#94A3B8">SYS.ID // 3104</text>
+
+    <!-- Radar Grid Effect -->
+    <circle cx="190" cy="185" r="135" fill="none" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
+    <circle cx="190" cy="185" r="100" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="190" cy="185" r="65" fill="none" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="2 2"/>
+    
+    <!-- Crosshairs -->
+    <line x1="190" y1="45" x2="190" y2="325" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="50" y1="185" x2="330" y2="185" stroke="#E2E8F0" stroke-width="1"/>
+
+    <!-- Orbital Particles & Rings -->
+    <g class="orbit-ring-1">
+      <circle cx="190" cy="85" r="3.5" fill="#0891B2"/>
+      <circle cx="290" cy="185" r="2.5" fill="#7C3AED"/>
+    </g>
+    <g class="orbit-ring-2">
+      <circle cx="190" cy="285" r="3.5" fill="#059669"/>
+      <circle cx="90" cy="185" r="2.5" fill="#0284C7"/>
+    </g>
+
+    <!-- Rotating Radar Line -->
+    <g class="radar">
+      <line x1="190" y1="185" x2="325" y2="185" stroke="#0891B2" stroke-width="1.5" opacity="0.7"/>
+    </g>
+
+    <!-- Center Morphing Tech Logos -->
+    <g class="morph-1">
+      <g transform="translate(145, 140)">
+        <rect x="0" y="0" width="90" height="90" rx="18" fill="#F3E8FF" stroke="#7C3AED" stroke-width="2"/>
+        <path d="M 25 30 L 40 45 L 25 60 M 65 30 L 50 45 L 65 60 M 40 65 L 50 25" stroke="#6D28D9" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <text x="45" y="82" text-anchor="middle" class="mono bold" font-size="9" fill="#6D28D9">AI / NEURAL</text>
+      </g>
+    </g>
+
+    <g class="morph-2">
+      <g transform="translate(145, 140)">
+        <rect x="0" y="0" width="90" height="90" rx="18" fill="#CFFAFE" stroke="#0891B2" stroke-width="2"/>
+        <path d="M 43 20 C 32 20 28 24 28 31 L 28 37 L 43 37 L 43 39 L 23 39 C 17 39 15 44 15 53 C 15 62 18 67 25 67 L 30 67 L 30 60 C 30 52 35 48 44 48 L 56 48 C 61 48 65 44 65 39 L 65 31 C 65 24 60 20 43 20 Z" fill="#0891B2"/>
+        <circle cx="34" cy="27" r="2.5" fill="#CFFAFE"/>
+        <path d="M 47 70 C 58 70 62 66 62 59 L 62 53 L 47 53 L 47 51 L 67 51 C 73 51 75 46 75 37 C 75 28 72 23 65 23 L 60 23 L 60 30 C 60 38 55 42 46 42 L 34 42 C 29 42 25 46 25 51 L 25 59 C 25 66 30 70 47 70 Z" fill="#059669"/>
+        <circle cx="56" cy="63" r="2.5" fill="#CFFAFE"/>
+        <text x="45" y="82" text-anchor="middle" class="mono bold" font-size="9" fill="#0891B2">PYTHON / ML</text>
+      </g>
+    </g>
+
+    <g class="morph-3">
+      <g transform="translate(145, 140)">
+        <rect x="0" y="0" width="90" height="90" rx="18" fill="#D1FAE5" stroke="#059669" stroke-width="2"/>
+        <ellipse cx="45" cy="45" rx="28" ry="10" fill="none" stroke="#059669" stroke-width="2.5" transform="rotate(30 45 45)"/>
+        <ellipse cx="45" cy="45" rx="28" ry="10" fill="none" stroke="#059669" stroke-width="2.5" transform="rotate(90 45 45)"/>
+        <ellipse cx="45" cy="45" rx="28" ry="10" fill="none" stroke="#059669" stroke-width="2.5" transform="rotate(150 45 45)"/>
+        <circle cx="45" cy="45" r="5" fill="#059669"/>
+        <text x="45" y="82" text-anchor="middle" class="mono bold" font-size="9" fill="#059669">DEV / STACK</text>
+      </g>
+    </g>
+
+    <!-- Audio Waveform Equalizer -->
+    <g transform="translate(20, 0)">
+      <rect x="0" y="320" width="4" height="20" rx="2" fill="#0891B2" class="eq-bar-1"/>
+      <rect x="7" y="320" width="4" height="20" rx="2" fill="#7C3AED" class="eq-bar-2"/>
+      <rect x="14" y="320" width="4" height="20" rx="2" fill="#059669" class="eq-bar-3"/>
+      <rect x="21" y="320" width="4" height="20" rx="2" fill="#0284C7" class="eq-bar-4"/>
+      <rect x="28" y="320" width="4" height="20" rx="2" fill="#7C3AED" class="eq-bar-1"/>
+      <rect x="35" y="320" width="4" height="20" rx="2" fill="#0891B2" class="eq-bar-3"/>
+    </g>
+    <text x="70" y="338" class="mono" font-size="9" fill="#94A3B8">AUDIO.FREQ // 44.1kHz ACTIVE</text>
+
+    <!-- Bottom Status Bar -->
+    <rect x="15" y="348" width="350" height="22" rx="5" fill="#F1F5F9"/>
+    <text x="25" y="363" class="mono" font-size="10" fill="#059669">STATUS: ONLINE</text>
+    <text x="355" y="363" text-anchor="end" class="mono" font-size="10" fill="#7C3AED">NEURAL CORE v3.2</text>
+  </g>
+
+  <!-- RIGHT PANEL: SYSTEM SPECIFICATION & GRAPHICAL PROFICIENCY -->
+  <g transform="translate(440, 70)">
+    <!-- Right Panel Container -->
+    <rect x="0" y="0" width="710" height="380" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+
+    <!-- Section Header -->
+    <text x="25" y="32" class="mono bold" font-size="12" fill="#0891B2" letter-spacing="1.5">SYSTEM.INFO // DEVELOPER SPECIFICATION</text>
+    <line x1="25" y1="42" x2="685" y2="42" stroke="#E2E8F0" stroke-width="1.5"/>
+
+    <!-- Spec Data Grid -->
+    <g transform="translate(25, 68)">
+      <text x="0" y="0" class="mono bold" font-size="13" fill="#64748B">Subject</text>
+      <line x1="75" y1="-4" x2="270" y2="-4" class="dotted"/>
+      <text x="280" y="0" class="mono bold" font-size="14" fill="#0F172A">Swapnil Sanjay Patil</text>
+    </g>
+
+    <g transform="translate(25, 96)">
+      <text x="0" y="0" class="mono bold" font-size="13" fill="#64748B">Role</text>
+      <line x1="50" y1="-4" x2="270" y2="-4" class="dotted"/>
+      <text x="280" y="0" class="mono bold" font-size="13" fill="#0891B2">Computer Science Engineer</text>
+    </g>
+
+    <g transform="translate(25, 124)">
+      <text x="0" y="0" class="mono bold" font-size="13" fill="#64748B">Focus</text>
+      <line x1="60" y1="-4" x2="270" y2="-4" class="dotted"/>
+      <text x="280" y="0" class="mono" font-size="13" fill="#7C3AED">AI / ML · Data Analytics · UI/UX</text>
+    </g>
+
+    <g transform="translate(25, 152)">
+      <text x="0" y="0" class="mono bold" font-size="13" fill="#64748B">Status</text>
+      <line x1="65" y1="-4" x2="270" y2="-4" class="dotted"/>
+      <rect x="280" y="-14" width="225" height="20" rx="4" fill="#D1FAE5"/>
+      <text x="290" y="0" class="mono bold" font-size="11" fill="#059669">Building + Learning + Shipping 🚀</text>
+    </g>
+
+    <!-- Mini Skill Bar Section inside Banner -->
+    <line x1="25" y1="172" x2="685" y2="172" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="25" y="190" class="mono bold" font-size="11" fill="#94A3B8" letter-spacing="1">GRAPHICAL PROFICIENCY METRICS</text>
+
+    <!-- Metric Bar 1: AI / Machine Learning -->
+    <g transform="translate(25, 212)">
+      <text x="0" y="0" class="mono" font-size="11" fill="#334155">AI / ML &amp; Neural Nets</text>
+      <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#0891B2">92%</text>
+      <rect x="245" y="-10" width="410" height="12" rx="6" fill="#E2E8F0"/>
+      <rect x="245" y="-10" width="377" height="12" rx="6" fill="url(#bar-ai-light)"/>
+    </g>
+
+    <!-- Metric Bar 2: Software & Web Eng -->
+    <g transform="translate(25, 238)">
+      <text x="0" y="0" class="mono" font-size="11" fill="#334155">Full-Stack &amp; Web Eng</text>
+      <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#7C3AED">90%</text>
+      <rect x="245" y="-10" width="410" height="12" rx="6" fill="#E2E8F0"/>
+      <rect x="245" y="-10" width="369" height="12" rx="6" fill="url(#bar-dev-light)"/>
+    </g>
+
+    <!-- Metric Bar 3: UI/UX & 3D Design -->
+    <g transform="translate(25, 264)">
+      <text x="0" y="0" class="mono" font-size="11" fill="#334155">UI/UX &amp; 3D Modeling</text>
+      <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#059669">88%</text>
+      <rect x="245" y="-10" width="410" height="12" rx="6" fill="#E2E8F0"/>
+      <rect x="245" y="-10" width="360" height="12" rx="6" fill="url(#bar-ux-light)"/>
+    </g>
+
+    <!-- Metric Bar 4: Data Science & Analytics -->
+    <g transform="translate(25, 290)">
+      <text x="0" y="0" class="mono" font-size="11" fill="#334155">Data Analytics &amp; Prep</text>
+      <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#0284C7">85%</text>
+      <rect x="245" y="-10" width="410" height="12" rx="6" fill="#E2E8F0"/>
+      <rect x="245" y="-10" width="348" height="12" rx="6" fill="url(#cyan-purple-light)"/>
+    </g>
+
+    <!-- Bottom Location & Contacts Bar -->
+    <line x1="25" y1="322" x2="685" y2="322" stroke="#E2E8F0" stroke-width="1.5"/>
+    <g transform="translate(25, 352)">
+      <text x="0" y="0" class="mono" font-size="11" fill="#94A3B8">MAIL: <tspan fill="#0891B2">swapnilp3104@gmail.com</tspan></text>
+      <text x="310" y="0" class="mono" font-size="11" fill="#94A3B8">LOC: <tspan fill="#059669">India 🇮🇳</tspan></text>
+      <text x="520" y="0" class="mono" font-size="11" fill="#94A3B8">GITHUB: <tspan fill="#7C3AED">@swapnil3104</tspan></text>
+    </g>
+  </g>
+</svg>
