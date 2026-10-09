@@ -170,7 +170,46 @@ sys.philosophy: "Solving real-world problems through clean code, data, & creativ
 ### 🏆 GitHub Trophies & Achievements
 
 <div align="center">
+
+<!-- Clickable Trophies Banner -->
+<a href="https://github.com/swapnil3104?tab=achievements">
   <img src="https://github-profile-trophy-zeta.vercel.app/?username=swapnil3104&theme=darkhub&no-frame=true&no-bg=true&margin-w=15&row=1&column=6" width="100%" alt="Swapnil's GitHub Trophies" />
+</a>
+
+<br/><br/>
+
+<!-- Official GitHub Achievement Badges -->
+<p align="center">
+  <a href="https://github.com/swapnil3104?tab=achievements" title="GitHub Achievements">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="64" height="64" alt="Pull Shark" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/swapnil3104?tab=achievements" title="GitHub Achievements">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="64" height="64" alt="Pair Extraordinaire" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/swapnil3104?tab=achievements" title="GitHub Achievements">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="64" height="64" alt="Quickdraw" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/swapnil3104?tab=achievements" title="GitHub Achievements">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="64" height="64" alt="Starstruck" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/swapnil3104?tab=achievements" title="GitHub Achievements">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="64" height="64" alt="YOLO" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/swapnil3104?tab=achievements" title="GitHub Achievements">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="64" height="64" alt="Arctic Code Vault" />
+  </a>
+</p>
+
+<br/>
+
+<!-- Direct Link Button Badge -->
+[![GitHub Achievements](https://img.shields.io/badge/GitHub_Achievements-View_Official_Profile_Badges_%E2%86%97-22D3EE?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swapnil3104?tab=achievements)
+
 </div>
 
 <br/>
