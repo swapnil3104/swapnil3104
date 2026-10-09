@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="orbit-bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A101F"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="orbit-border-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.8"/>
+    </linearGradient>
+    
+    <style>
+      .mono { font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
+      .bold { font-weight: 700; }
+      
+      @keyframes orbit-rotate-cw {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes orbit-rotate-ccw {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
+      }
+      @keyframes pulse-core {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.08); opacity: 0.85; }
+      }
+      
+      .ring-cw { animation: orbit-rotate-cw 20s linear infinite; transform-origin: 590px 160px; }
+      .ring-ccw { animation: orbit-rotate-ccw 28s linear infinite; transform-origin: 590px 160px; }
+      .core-pulse { animation: pulse-core 3s infinite ease-in-out; transform-origin: 590px 160px; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1176" height="316" rx="14" fill="url(#orbit-bg-dark)" stroke="url(#orbit-border-dark)" stroke-width="2"/>
+  
+  <text x="590" y="38" text-anchor="middle" class="mono bold" font-size="13" fill="#22D3EE" letter-spacing="2">3D PLANETARY TECH ORBIT // ECOSYSTEM SPECTRUM</text>
+
+  <!-- Orbital Ellipses -->
+  <ellipse cx="590" cy="160" rx="360" ry="90" fill="none" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <ellipse cx="590" cy="160" rx="240" ry="60" fill="none" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Core AI Center -->
+  <g class="core-pulse">
+    <circle cx="590" cy="160" r="45" fill="#1E1B4B" stroke="#7C3AED" stroke-width="2.5"/>
+    <circle cx="590" cy="160" r="32" fill="#7C3AED" opacity="0.2"/>
+    <text x="590" y="156" text-anchor="middle" class="mono bold" font-size="12" fill="#A78BFA">SWAPNIL</text>
+    <text x="590" y="172" text-anchor="middle" class="mono bold" font-size="9" fill="#22D3EE">AI CORE</text>
+  </g>
+
+  <!-- Outer Orbit Nodes (Clockwise) -->
+  <g class="ring-cw">
+    <!-- Node 1: Python -->
+    <g transform="translate(950, 160)">
+      <circle cx="0" cy="0" r="22" fill="#062C43" stroke="#22D3EE" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#22D3EE">PY</text>
+    </g>
+    <!-- Node 2: PyTorch -->
+    <g transform="translate(230, 160)">
+      <circle cx="0" cy="0" r="22" fill="#3B1713" stroke="#EE4C2C" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#EE4C2C">TORCH</text>
+    </g>
+    <!-- Node 3: React -->
+    <g transform="translate(590, 70)">
+      <circle cx="0" cy="0" r="22" fill="#0D2E3A" stroke="#61DAFB" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#61DAFB">REACT</text>
+    </g>
+    <!-- Node 4: Figma -->
+    <g transform="translate(590, 250)">
+      <circle cx="0" cy="0" r="22" fill="#361717" stroke="#F24E1E" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#F24E1E">FIGMA</text>
+    </g>
+  </g>
+
+  <!-- Inner Orbit Nodes (Counter-Clockwise) -->
+  <g class="ring-ccw">
+    <!-- Node 5: C++ -->
+    <g transform="translate(830, 160)">
+      <circle cx="0" cy="0" r="18" fill="#0A2540" stroke="#00599C" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="9" fill="#00599C">C++</text>
+    </g>
+    <!-- Node 6: Node.js -->
+    <g transform="translate(350, 160)">
+      <circle cx="0" cy="0" r="18" fill="#14321A" stroke="#6DA55F" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="9" fill="#6DA55F">NODE</text>
+    </g>
+  </g>
+</svg>

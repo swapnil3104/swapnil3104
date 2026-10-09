@@ -193,7 +193,7 @@
       </g>
     </g>
 
-    <!-- Audio Waveform Equalizer (Bottom Left Visualizer) -->
+    <!-- Audio Waveform Equalizer -->
     <g transform="translate(20, 0)">
       <rect x="0" y="320" width="4" height="20" rx="2" fill="#22D3EE" class="eq-bar-1"/>
       <rect x="7" y="320" width="4" height="20" rx="2" fill="#A78BFA" class="eq-bar-2"/>
@@ -220,28 +220,24 @@
     <line x1="25" y1="42" x2="685" y2="42" stroke="#1E293B" stroke-width="1.5"/>
 
     <!-- Spec Data Grid -->
-    <!-- Row 1: Subject -->
     <g transform="translate(25, 68)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#94A3B8">Subject</text>
       <line x1="75" y1="-4" x2="270" y2="-4" class="dotted"/>
       <text x="280" y="0" class="mono bold" font-size="14" fill="#F8FAFC">Swapnil Sanjay Patil</text>
     </g>
 
-    <!-- Row 2: Role -->
     <g transform="translate(25, 96)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#94A3B8">Role</text>
       <line x1="50" y1="-4" x2="270" y2="-4" class="dotted"/>
       <text x="280" y="0" class="mono bold" font-size="13" fill="#22D3EE">Computer Science Engineer</text>
     </g>
 
-    <!-- Row 3: Focus -->
     <g transform="translate(25, 124)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#94A3B8">Focus</text>
       <line x1="60" y1="-4" x2="270" y2="-4" class="dotted"/>
       <text x="280" y="0" class="mono" font-size="13" fill="#A78BFA">AI / ML · Data Analytics · Product Designer</text>
     </g>
 
-    <!-- Row 4: Status Pill -->
     <g transform="translate(25, 152)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#94A3B8">Status</text>
       <line x1="65" y1="-4" x2="270" y2="-4" class="dotted"/>
@@ -269,7 +265,7 @@
       <rect x="245" y="-10" width="369" height="12" rx="6" fill="url(#bar-dev-grad)"/>
     </g>
 
-    <!-- Metric Bar 3: UI/UX & 3D Design -->
+    <!-- Metric Bar 3: Product Design & 3D Design -->
     <g transform="translate(25, 264)">
       <text x="0" y="0" class="mono" font-size="11" fill="#CBD5E1">Product Design &amp; 3D Modeling</text>
       <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#10B981">88%</text>

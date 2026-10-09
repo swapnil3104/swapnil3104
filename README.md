@@ -1,6 +1,11 @@
 <div align="center">
 
-<!-- Phase 1: Animated Theme-Aware Live Terminal HUD Banner -->
+<!-- Phase 1: Waving Gradient Capsule Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A101F,50:A78BFA,100:22D3EE&height=180&section=header&text=Swapnil%20Patil&fontSize=48&fontColor=ffffff&fontAlignY=35&desc=Computer%20Science%20Engineer%20%7C%20AI/ML%20%26%20Product%20Designer&descAlignY=62&descAlign=50" width="100%" alt="Header Banner" />
+
+<br/>
+
+<!-- Phase 2: Animated Theme-Aware Live Terminal HUD Banner -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./light.svg">
@@ -8,6 +13,15 @@
 </picture>
 
 <br/><br/>
+
+<!-- Phase 3: Dynamic Neon Typing Sub-Banner -->
+<p align="center">
+  <a href="https://github.com/swapnil3104">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=750&height=50&lines=%F0%9F%90%8D+Computer+Science+Engineer+%26+Developer;%F0%9F%A6%A0+Building+AI%2FML+%26+Deep+Learning+Models;%F0%9F%8E%A8+Product+Designer+%26+Interactive+UI%2FUX;%E2%9A%A1+Solving+Real-World+Problems+Through+Clean+Code" alt="Typing Animation" />
+  </a>
+</p>
+
+<br/>
 
 <!-- Social Badges -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/swapnil-sanjay-patil3104)
@@ -50,6 +64,15 @@ sys.philosophy: "Solving real-world problems through clean code, data, & creativ
 
 <br/>
 
+<!-- Separate Animation 1: Animated Cyber Terminal Simulator -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./terminal_sim_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./terminal_sim_light.svg">
+  <img alt="Live CLI Terminal Execution" src="./terminal_sim_dark.svg" width="100%">
+</picture>
+
+<br/>
+
 <!-- Animated SVG Theme-Aware Section Divider -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./divider_dark.svg">
@@ -69,6 +92,15 @@ sys.philosophy: "Solving real-world problems through clean code, data, & creativ
 </p>
 
 </div>
+
+<br/>
+
+<!-- Separate Animation 2: Animated 3D Tech Orbit Planetary Card -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./tech_orbit_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./tech_orbit_light.svg">
+  <img alt="3D Planetary Tech Orbit" src="./tech_orbit_dark.svg" width="100%">
+</picture>
 
 <br/>
 

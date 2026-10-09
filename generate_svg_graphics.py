@@ -196,7 +196,7 @@ def create_dark_svg():
       </g>
     </g>
 
-    <!-- Audio Waveform Equalizer (Bottom Left Visualizer) -->
+    <!-- Audio Waveform Equalizer -->
     <g transform="translate(20, 0)">
       <rect x="0" y="320" width="4" height="20" rx="2" fill="#22D3EE" class="eq-bar-1"/>
       <rect x="7" y="320" width="4" height="20" rx="2" fill="#A78BFA" class="eq-bar-2"/>
@@ -223,28 +223,24 @@ def create_dark_svg():
     <line x1="25" y1="42" x2="685" y2="42" stroke="#1E293B" stroke-width="1.5"/>
 
     <!-- Spec Data Grid -->
-    <!-- Row 1: Subject -->
     <g transform="translate(25, 68)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#94A3B8">Subject</text>
       <line x1="75" y1="-4" x2="270" y2="-4" class="dotted"/>
       <text x="280" y="0" class="mono bold" font-size="14" fill="#F8FAFC">Swapnil Sanjay Patil</text>
     </g>
 
-    <!-- Row 2: Role -->
     <g transform="translate(25, 96)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#94A3B8">Role</text>
       <line x1="50" y1="-4" x2="270" y2="-4" class="dotted"/>
       <text x="280" y="0" class="mono bold" font-size="13" fill="#22D3EE">Computer Science Engineer</text>
     </g>
 
-    <!-- Row 3: Focus -->
     <g transform="translate(25, 124)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#94A3B8">Focus</text>
       <line x1="60" y1="-4" x2="270" y2="-4" class="dotted"/>
       <text x="280" y="0" class="mono" font-size="13" fill="#A78BFA">AI / ML · Data Analytics · Product Designer</text>
     </g>
 
-    <!-- Row 4: Status Pill -->
     <g transform="translate(25, 152)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#94A3B8">Status</text>
       <line x1="65" y1="-4" x2="270" y2="-4" class="dotted"/>
@@ -272,7 +268,7 @@ def create_dark_svg():
       <rect x="245" y="-10" width="369" height="12" rx="6" fill="url(#bar-dev-grad)"/>
     </g>
 
-    <!-- Metric Bar 3: UI/UX & 3D Design -->
+    <!-- Metric Bar 3: Product Design & 3D Design -->
     <g transform="translate(25, 264)">
       <text x="0" y="0" class="mono" font-size="11" fill="#CBD5E1">Product Design &amp; 3D Modeling</text>
       <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#10B981">88%</text>
@@ -422,24 +418,19 @@ def create_light_svg():
 
   <!-- LEFT PANEL: VISUAL HUD & CYBER MATRIX -->
   <g transform="translate(30, 70)">
-    <!-- Panel Box -->
     <rect x="0" y="0" width="380" height="380" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
     
-    <!-- Header Labels -->
     <rect x="15" y="14" width="105" height="22" rx="4" fill="#F1F5F9"/>
     <text x="67" y="29" text-anchor="middle" class="mono bold" font-size="10" fill="#7C3AED" letter-spacing="1">CYBER.HUD</text>
     <text x="365" y="29" text-anchor="end" class="mono" font-size="10" fill="#94A3B8">SYS.ID // 3104</text>
 
-    <!-- Radar Grid Effect -->
     <circle cx="190" cy="185" r="135" fill="none" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
     <circle cx="190" cy="185" r="100" fill="none" stroke="#E2E8F0" stroke-width="1"/>
     <circle cx="190" cy="185" r="65" fill="none" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="2 2"/>
     
-    <!-- Crosshairs -->
     <line x1="190" y1="45" x2="190" y2="325" stroke="#E2E8F0" stroke-width="1"/>
     <line x1="50" y1="185" x2="330" y2="185" stroke="#E2E8F0" stroke-width="1"/>
 
-    <!-- Orbital Particles & Rings -->
     <g class="orbit-ring-1">
       <circle cx="190" cy="85" r="3.5" fill="#0891B2"/>
       <circle cx="290" cy="185" r="2.5" fill="#7C3AED"/>
@@ -449,12 +440,10 @@ def create_light_svg():
       <circle cx="90" cy="185" r="2.5" fill="#0284C7"/>
     </g>
 
-    <!-- Rotating Radar Line -->
     <g class="radar">
       <line x1="190" y1="185" x2="325" y2="185" stroke="#0891B2" stroke-width="1.5" opacity="0.7"/>
     </g>
 
-    <!-- Center Morphing Tech Logos -->
     <g class="morph-1">
       <g transform="translate(145, 140)">
         <rect x="0" y="0" width="90" height="90" rx="18" fill="#F3E8FF" stroke="#7C3AED" stroke-width="2"/>
@@ -485,7 +474,6 @@ def create_light_svg():
       </g>
     </g>
 
-    <!-- Audio Waveform Equalizer -->
     <g transform="translate(20, 0)">
       <rect x="0" y="320" width="4" height="20" rx="2" fill="#0891B2" class="eq-bar-1"/>
       <rect x="7" y="320" width="4" height="20" rx="2" fill="#7C3AED" class="eq-bar-2"/>
@@ -496,22 +484,18 @@ def create_light_svg():
     </g>
     <text x="70" y="338" class="mono" font-size="9" fill="#94A3B8">AUDIO.FREQ // 44.1kHz ACTIVE</text>
 
-    <!-- Bottom Status Bar -->
     <rect x="15" y="348" width="350" height="22" rx="5" fill="#F1F5F9"/>
     <text x="25" y="363" class="mono" font-size="10" fill="#059669">STATUS: ONLINE</text>
     <text x="355" y="363" text-anchor="end" class="mono" font-size="10" fill="#7C3AED">NEURAL CORE v3.2</text>
   </g>
 
-  <!-- RIGHT PANEL: SYSTEM SPECIFICATION & GRAPHICAL PROFICIENCY -->
+  <!-- RIGHT PANEL -->
   <g transform="translate(440, 70)">
-    <!-- Right Panel Container -->
     <rect x="0" y="0" width="710" height="380" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
 
-    <!-- Section Header -->
     <text x="25" y="32" class="mono bold" font-size="12" fill="#0891B2" letter-spacing="1.5">SYSTEM.INFO // DEVELOPER SPECIFICATION</text>
     <line x1="25" y1="42" x2="685" y2="42" stroke="#E2E8F0" stroke-width="1.5"/>
 
-    <!-- Spec Data Grid -->
     <g transform="translate(25, 68)">
       <text x="0" y="0" class="mono bold" font-size="13" fill="#64748B">Subject</text>
       <line x1="75" y1="-4" x2="270" y2="-4" class="dotted"/>
@@ -537,11 +521,9 @@ def create_light_svg():
       <text x="290" y="0" class="mono bold" font-size="11" fill="#059669">Building + Learning + Shipping 🚀</text>
     </g>
 
-    <!-- Mini Skill Bar Section inside Banner -->
     <line x1="25" y1="172" x2="685" y2="172" stroke="#E2E8F0" stroke-width="1"/>
     <text x="25" y="190" class="mono bold" font-size="11" fill="#94A3B8" letter-spacing="1">GRAPHICAL PROFICIENCY METRICS</text>
 
-    <!-- Metric Bar 1: AI / Machine Learning -->
     <g transform="translate(25, 212)">
       <text x="0" y="0" class="mono" font-size="11" fill="#334155">AI / ML &amp; Neural Nets</text>
       <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#0891B2">92%</text>
@@ -549,7 +531,6 @@ def create_light_svg():
       <rect x="245" y="-10" width="377" height="12" rx="6" fill="url(#bar-ai-light)"/>
     </g>
 
-    <!-- Metric Bar 2: Software & Web Eng -->
     <g transform="translate(25, 238)">
       <text x="0" y="0" class="mono" font-size="11" fill="#334155">Full-Stack &amp; Web Eng</text>
       <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#7C3AED">90%</text>
@@ -557,7 +538,6 @@ def create_light_svg():
       <rect x="245" y="-10" width="369" height="12" rx="6" fill="url(#bar-dev-light)"/>
     </g>
 
-    <!-- Metric Bar 3: UI/UX & 3D Design -->
     <g transform="translate(25, 264)">
       <text x="0" y="0" class="mono" font-size="11" fill="#334155">Product Design &amp; 3D Modeling</text>
       <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#059669">88%</text>
@@ -565,7 +545,6 @@ def create_light_svg():
       <rect x="245" y="-10" width="360" height="12" rx="6" fill="url(#bar-ux-light)"/>
     </g>
 
-    <!-- Metric Bar 4: Data Science & Analytics -->
     <g transform="translate(25, 290)">
       <text x="0" y="0" class="mono" font-size="11" fill="#334155">Data Analytics &amp; Prep</text>
       <text x="230" y="0" text-anchor="end" class="mono bold" font-size="11" fill="#0284C7">85%</text>
@@ -573,12 +552,320 @@ def create_light_svg():
       <rect x="245" y="-10" width="348" height="12" rx="6" fill="url(#cyan-purple-light)"/>
     </g>
 
-    <!-- Bottom Location & Contacts Bar -->
     <line x1="25" y1="322" x2="685" y2="322" stroke="#E2E8F0" stroke-width="1.5"/>
     <g transform="translate(25, 352)">
       <text x="0" y="0" class="mono" font-size="11" fill="#94A3B8">MAIL: <tspan fill="#0891B2">swapnilp3104@gmail.com</tspan></text>
       <text x="310" y="0" class="mono" font-size="11" fill="#94A3B8">LOC: <tspan fill="#059669">India 🇮🇳</tspan></text>
       <text x="520" y="0" class="mono" font-size="11" fill="#94A3B8">GITHUB: <tspan fill="#7C3AED">@swapnil3104</tspan></text>
+    </g>
+  </g>
+</svg>'''
+
+def create_terminal_sim_dark():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="term-bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B132B"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </linearGradient>
+    <linearGradient id="term-border-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.8"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
+      .bold { font-weight: 700; }
+      
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes line-type-1 { 0%, 10% { opacity: 0; } 15%, 100% { opacity: 1; } }
+      @keyframes line-type-2 { 0%, 30% { opacity: 0; } 35%, 100% { opacity: 1; } }
+      @keyframes line-type-3 { 0%, 55% { opacity: 0; } 60%, 100% { opacity: 1; } }
+      @keyframes line-type-4 { 0%, 75% { opacity: 0; } 80%, 100% { opacity: 1; } }
+
+      .cursor { animation: blink 1s infinite; }
+      .line-1 { animation: line-type-1 8s infinite; }
+      .line-2 { animation: line-type-2 8s infinite; }
+      .line-3 { animation: line-type-3 8s infinite; }
+      .line-4 { animation: line-type-4 8s infinite; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1176" height="256" rx="12" fill="url(#term-bg-dark)" stroke="url(#term-border-dark)" stroke-width="2"/>
+  
+  <!-- Terminal Header -->
+  <path d="M 2 12 C 2 6 6 2 12 2 L 1168 2 C 1174 2 1178 6 1178 12 L 1178 40 L 2 40 Z" fill="#0F172A"/>
+  <line x1="2" y1="40" x2="1178" y2="40" stroke="#1E293B" stroke-width="1"/>
+  
+  <circle cx="22" cy="21" r="5.5" fill="#EF4444"/>
+  <circle cx="38" cy="21" r="5.5" fill="#F59E0B"/>
+  <circle cx="54" cy="21" r="5.5" fill="#10B981"/>
+  
+  <text x="590" y="25" text-anchor="middle" class="mono bold" font-size="12" fill="#94A3B8">zsh -- swapnil3104@neural-cluster: ~/ai-pipeline</text>
+
+  <!-- Terminal Content Lines -->
+  <g transform="translate(30, 75)" class="mono" font-size="13">
+    <!-- Command Execution Line -->
+    <text x="0" y="0" fill="#10B981" class="bold">swapnil3104@dev-box:~$ <tspan fill="#22D3EE">python train_neural_core.py --model transformer --epochs 100</tspan></text>
+    
+    <!-- Output Line 1 -->
+    <g class="line-1" transform="translate(0, 30)">
+      <text x="0" y="0" fill="#64748B">[INFO] Initializing PyTorch GPU Accelerators... <tspan fill="#10B981">✓ CUDA 12.2 Active (NVIDIA RTX)</tspan></text>
+    </g>
+
+    <!-- Output Line 2 -->
+    <g class="line-2" transform="translate(0, 60)">
+      <text x="0" y="0" fill="#A78BFA">[TRAIN] Epoch 100/100 | Loss: 0.0084 | Accuracy: <tspan fill="#22D3EE" class="bold">98.9%</tspan> | Val_Loss: 0.0112</text>
+    </g>
+
+    <!-- Output Line 3 -->
+    <g class="line-3" transform="translate(0, 90)">
+      <text x="0" y="0" fill="#10B981" class="bold">[SUCCESS] Neural Model Weights Saved to ./build/model_v3_final.pth ✨</text>
+    </g>
+
+    <!-- Prompt & Blinking Cursor Line 4 -->
+    <g class="line-4" transform="translate(0, 125)">
+      <text x="0" y="0" fill="#10B981" class="bold">swapnil3104@dev-box:~$ <tspan fill="#F8FAFC">git push origin main --tags</tspan></text>
+      <rect x="365" y="-12" width="9" height="15" fill="#22D3EE" class="cursor"/>
+    </g>
+  </g>
+</svg>'''
+
+def create_terminal_sim_light():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 260" width="100%" height="100%">
+  <defs>
+    <linearGradient id="term-bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="term-border-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0891B2" stop-opacity="0.8"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
+      .bold { font-weight: 700; }
+      
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes line-type-1 { 0%, 10% { opacity: 0; } 15%, 100% { opacity: 1; } }
+      @keyframes line-type-2 { 0%, 30% { opacity: 0; } 35%, 100% { opacity: 1; } }
+      @keyframes line-type-3 { 0%, 55% { opacity: 0; } 60%, 100% { opacity: 1; } }
+      @keyframes line-type-4 { 0%, 75% { opacity: 0; } 80%, 100% { opacity: 1; } }
+
+      .cursor { animation: blink 1s infinite; }
+      .line-1 { animation: line-type-1 8s infinite; }
+      .line-2 { animation: line-type-2 8s infinite; }
+      .line-3 { animation: line-type-3 8s infinite; }
+      .line-4 { animation: line-type-4 8s infinite; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1176" height="256" rx="12" fill="url(#term-bg-light)" stroke="url(#term-border-light)" stroke-width="2"/>
+  
+  <path d="M 2 12 C 2 6 6 2 12 2 L 1168 2 C 1174 2 1178 6 1178 12 L 1178 40 L 2 40 Z" fill="#E2E8F0"/>
+  <line x1="2" y1="40" x2="1178" y2="40" stroke="#CBD5E1" stroke-width="1"/>
+  
+  <circle cx="22" cy="21" r="5.5" fill="#EF4444"/>
+  <circle cx="38" cy="21" r="5.5" fill="#F59E0B"/>
+  <circle cx="54" cy="21" r="5.5" fill="#10B981"/>
+  
+  <text x="590" y="25" text-anchor="middle" class="mono bold" font-size="12" fill="#475569">zsh -- swapnil3104@neural-cluster: ~/ai-pipeline</text>
+
+  <g transform="translate(30, 75)" class="mono" font-size="13">
+    <text x="0" y="0" fill="#059669" class="bold">swapnil3104@dev-box:~$ <tspan fill="#0891B2">python train_neural_core.py --model transformer --epochs 100</tspan></text>
+    
+    <g class="line-1" transform="translate(0, 30)">
+      <text x="0" y="0" fill="#64748B">[INFO] Initializing PyTorch GPU Accelerators... <tspan fill="#059669">✓ CUDA 12.2 Active (NVIDIA RTX)</tspan></text>
+    </g>
+
+    <g class="line-2" transform="translate(0, 60)">
+      <text x="0" y="0" fill="#7C3AED">[TRAIN] Epoch 100/100 | Loss: 0.0084 | Accuracy: <tspan fill="#0891B2" class="bold">98.9%</tspan> | Val_Loss: 0.0112</text>
+    </g>
+
+    <g class="line-3" transform="translate(0, 90)">
+      <text x="0" y="0" fill="#059669" class="bold">[SUCCESS] Neural Model Weights Saved to ./build/model_v3_final.pth ✨</text>
+    </g>
+
+    <g class="line-4" transform="translate(0, 125)">
+      <text x="0" y="0" fill="#059669" class="bold">swapnil3104@dev-box:~$ <tspan fill="#0F172A">git push origin main --tags</tspan></text>
+      <rect x="365" y="-12" width="9" height="15" fill="#0891B2" class="cursor"/>
+    </g>
+  </g>
+</svg>'''
+
+def create_tech_orbit_dark():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="orbit-bg-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A101F"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="orbit-border-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.8"/>
+    </linearGradient>
+    
+    <style>
+      .mono { font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
+      .bold { font-weight: 700; }
+      
+      @keyframes orbit-rotate-cw {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes orbit-rotate-ccw {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
+      }
+      @keyframes pulse-core {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.08); opacity: 0.85; }
+      }
+      
+      .ring-cw { animation: orbit-rotate-cw 20s linear infinite; transform-origin: 590px 160px; }
+      .ring-ccw { animation: orbit-rotate-ccw 28s linear infinite; transform-origin: 590px 160px; }
+      .core-pulse { animation: pulse-core 3s infinite ease-in-out; transform-origin: 590px 160px; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1176" height="316" rx="14" fill="url(#orbit-bg-dark)" stroke="url(#orbit-border-dark)" stroke-width="2"/>
+  
+  <text x="590" y="38" text-anchor="middle" class="mono bold" font-size="13" fill="#22D3EE" letter-spacing="2">3D PLANETARY TECH ORBIT // ECOSYSTEM SPECTRUM</text>
+
+  <!-- Orbital Ellipses -->
+  <ellipse cx="590" cy="160" rx="360" ry="90" fill="none" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <ellipse cx="590" cy="160" rx="240" ry="60" fill="none" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Core AI Center -->
+  <g class="core-pulse">
+    <circle cx="590" cy="160" r="45" fill="#1E1B4B" stroke="#7C3AED" stroke-width="2.5"/>
+    <circle cx="590" cy="160" r="32" fill="#7C3AED" opacity="0.2"/>
+    <text x="590" y="156" text-anchor="middle" class="mono bold" font-size="12" fill="#A78BFA">SWAPNIL</text>
+    <text x="590" y="172" text-anchor="middle" class="mono bold" font-size="9" fill="#22D3EE">AI CORE</text>
+  </g>
+
+  <!-- Outer Orbit Nodes (Clockwise) -->
+  <g class="ring-cw">
+    <!-- Node 1: Python -->
+    <g transform="translate(950, 160)">
+      <circle cx="0" cy="0" r="22" fill="#062C43" stroke="#22D3EE" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#22D3EE">PY</text>
+    </g>
+    <!-- Node 2: PyTorch -->
+    <g transform="translate(230, 160)">
+      <circle cx="0" cy="0" r="22" fill="#3B1713" stroke="#EE4C2C" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#EE4C2C">TORCH</text>
+    </g>
+    <!-- Node 3: React -->
+    <g transform="translate(590, 70)">
+      <circle cx="0" cy="0" r="22" fill="#0D2E3A" stroke="#61DAFB" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#61DAFB">REACT</text>
+    </g>
+    <!-- Node 4: Figma -->
+    <g transform="translate(590, 250)">
+      <circle cx="0" cy="0" r="22" fill="#361717" stroke="#F24E1E" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#F24E1E">FIGMA</text>
+    </g>
+  </g>
+
+  <!-- Inner Orbit Nodes (Counter-Clockwise) -->
+  <g class="ring-ccw">
+    <!-- Node 5: C++ -->
+    <g transform="translate(830, 160)">
+      <circle cx="0" cy="0" r="18" fill="#0A2540" stroke="#00599C" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="9" fill="#00599C">C++</text>
+    </g>
+    <!-- Node 6: Node.js -->
+    <g transform="translate(350, 160)">
+      <circle cx="0" cy="0" r="18" fill="#14321A" stroke="#6DA55F" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="9" fill="#6DA55F">NODE</text>
+    </g>
+  </g>
+</svg>'''
+
+def create_tech_orbit_light():
+    return '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="orbit-bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="orbit-border-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891B2" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#7C3AED" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.8"/>
+    </linearGradient>
+    
+    <style>
+      .mono { font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, monospace; }
+      .bold { font-weight: 700; }
+      
+      @keyframes orbit-rotate-cw {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes orbit-rotate-ccw {
+        0% { transform: rotate(360deg); }
+        100% { transform: rotate(0deg); }
+      }
+      @keyframes pulse-core {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.08); opacity: 0.85; }
+      }
+      
+      .ring-cw { animation: orbit-rotate-cw 20s linear infinite; transform-origin: 590px 160px; }
+      .ring-ccw { animation: orbit-rotate-ccw 28s linear infinite; transform-origin: 590px 160px; }
+      .core-pulse { animation: pulse-core 3s infinite ease-in-out; transform-origin: 590px 160px; }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="1176" height="316" rx="14" fill="url(#orbit-bg-light)" stroke="url(#orbit-border-light)" stroke-width="2"/>
+  
+  <text x="590" y="38" text-anchor="middle" class="mono bold" font-size="13" fill="#0891B2" letter-spacing="2">3D PLANETARY TECH ORBIT // ECOSYSTEM SPECTRUM</text>
+
+  <ellipse cx="590" cy="160" rx="360" ry="90" fill="none" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <ellipse cx="590" cy="160" rx="240" ry="60" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <g class="core-pulse">
+    <circle cx="590" cy="160" r="45" fill="#F3E8FF" stroke="#7C3AED" stroke-width="2.5"/>
+    <circle cx="590" cy="160" r="32" fill="#7C3AED" opacity="0.15"/>
+    <text x="590" y="156" text-anchor="middle" class="mono bold" font-size="12" fill="#6D28D9">SWAPNIL</text>
+    <text x="590" y="172" text-anchor="middle" class="mono bold" font-size="9" fill="#0891B2">AI CORE</text>
+  </g>
+
+  <g class="ring-cw">
+    <g transform="translate(950, 160)">
+      <circle cx="0" cy="0" r="22" fill="#CFFAFE" stroke="#0891B2" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#0891B2">PY</text>
+    </g>
+    <g transform="translate(230, 160)">
+      <circle cx="0" cy="0" r="22" fill="#FFEDD5" stroke="#EA580C" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#EA580C">TORCH</text>
+    </g>
+    <g transform="translate(590, 70)">
+      <circle cx="0" cy="0" r="22" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#0284C7">REACT</text>
+    </g>
+    <g transform="translate(590, 250)">
+      <circle cx="0" cy="0" r="22" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="10" fill="#DC2626">FIGMA</text>
+    </g>
+  </g>
+
+  <g class="ring-ccw">
+    <g transform="translate(830, 160)">
+      <circle cx="0" cy="0" r="18" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="9" fill="#2563EB">C++</text>
+    </g>
+    <g transform="translate(350, 160)">
+      <circle cx="0" cy="0" r="18" fill="#D1FAE5" stroke="#059669" stroke-width="2"/>
+      <text x="0" y="4" text-anchor="middle" class="mono bold" font-size="9" fill="#059669">NODE</text>
     </g>
   </g>
 </svg>'''
@@ -624,9 +911,17 @@ if __name__ == '__main__':
         f.write(create_dark_svg())
     with open(os.path.join(target_dir, 'light.svg'), 'w', encoding='utf-8') as f:
         f.write(create_light_svg())
+    with open(os.path.join(target_dir, 'terminal_sim_dark.svg'), 'w', encoding='utf-8') as f:
+        f.write(create_terminal_sim_dark())
+    with open(os.path.join(target_dir, 'terminal_sim_light.svg'), 'w', encoding='utf-8') as f:
+        f.write(create_terminal_sim_light())
+    with open(os.path.join(target_dir, 'tech_orbit_dark.svg'), 'w', encoding='utf-8') as f:
+        f.write(create_tech_orbit_dark())
+    with open(os.path.join(target_dir, 'tech_orbit_light.svg'), 'w', encoding='utf-8') as f:
+        f.write(create_tech_orbit_light())
     with open(os.path.join(target_dir, 'divider_dark.svg'), 'w', encoding='utf-8') as f:
         f.write(create_divider_dark())
     with open(os.path.join(target_dir, 'divider_light.svg'), 'w', encoding='utf-8') as f:
         f.write(create_divider_light())
 
-    print("All SVGs updated and generated successfully.")
+    print("All SVGs (including separate animations) updated and generated successfully.")
