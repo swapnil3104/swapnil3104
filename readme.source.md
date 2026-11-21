@@ -491,6 +491,14 @@ sys.philosophy: "Solving real-world problems through clean code, data, & creativ
 
 <br/>
 
+> **📌 Note on Technical Skills**
+> 
+> The technologies listed above represent my technical exposure, hands-on experience, and areas of learning. I have practical experience with some technologies, while others are familiar to me through project development, experimentation, and self-learning.
+> 
+> I continuously explore and learn new tools and frameworks to strengthen my technical knowledge. My proficiency may vary across technologies, and I am always eager to deepen my understanding and gain hands-on experience.
+
+<br/>
+
 <!-- Animated SVG Theme-Aware Section Divider -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./divider_dark.svg">
