@@ -553,6 +553,92 @@ sys.philosophy: "Solving real-world problems through clean code, data, & creativ
   <img alt="Section Divider" src="./divider_dark.svg" width="100%">
 </picture>
 
+### 👾 Code Pet · Cyber Developer Companion
+
+<!-- Aura Cyber Code Pet Header Card -->
+```aura width=860 height=170
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#070B14', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif', border: '1px solid rgba(16,185,129,0.3)' }}>
+  <style>{`
+    @keyframes pet-orb-1 { 0%, 100% { transform: translate(0, 0); opacity: 0.5; } 50% { transform: translate(25px, -15px); opacity: 0.85; } }
+    @keyframes pet-orb-2 { 0%, 100% { transform: translate(0, 0); opacity: 0.45; } 50% { transform: translate(-20px, 18px); opacity: 0.8; } }
+    @keyframes pet-ring { 0%, 100% { opacity: 0.08; } 50% { opacity: 0.25; } }
+    @keyframes pet-pulse { 0%, 100% { transform: scale(1); opacity: 0.9; } 50% { transform: scale(1.05); opacity: 1; } }
+    #pet-o1 { animation: pet-orb-1 8s ease-in-out infinite; }
+    #pet-o2 { animation: pet-orb-2 10s ease-in-out infinite 1s; }
+    #pet-r1 { animation: pet-ring 6s ease-in-out infinite; }
+    #pet-r2 { animation: pet-ring 8s ease-in-out infinite 2s; }
+    #pet-badge { animation: pet-pulse 2.5s ease-in-out infinite; }
+  `}</style>
+  <svg width="860" height="170" style={{ position: 'absolute', top: 0, left: 0 }}>
+    <defs>
+      <radialGradient id="pet-g1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(16,185,129,0.5)" />
+        <stop offset="100%" stopColor="rgba(16,185,129,0)" />
+      </radialGradient>
+      <radialGradient id="pet-g2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stopColor="rgba(34,211,238,0.45)" />
+        <stop offset="100%" stopColor="rgba(34,211,238,0)" />
+      </radialGradient>
+    </defs>
+    <ellipse id="pet-o1" cx="140" cy="120" rx="200" ry="120" fill="url(#pet-g1)" />
+    <ellipse id="pet-o2" cx="720" cy="50"  rx="190" ry="110" fill="url(#pet-g2)" />
+    <circle id="pet-r1" cx="430" cy="85" r="70" fill="none" stroke="rgba(16,185,129,0.5)" strokeWidth="0.8" />
+    <circle id="pet-r2" cx="430" cy="85" r="130" fill="none" stroke="rgba(34,211,238,0.4)" strokeWidth="0.8" />
+  </svg>
+  <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <div id="pet-badge" style={{ display: 'flex', alignItems: 'center', padding: '4px 14px', background: 'rgba(16,185,129,0.12)', border: '1px solid rgba(16,185,129,0.4)', borderRadius: 100, marginBottom: 10, gap: 6 }}>
+      <div style={{ width: 6, height: 6, borderRadius: 10, background: '#10B981' }} />
+      <span style={{ fontSize: 10, color: '#86EFAC', letterSpacing: 2.5, textTransform: 'uppercase', fontWeight: 700 }}>TAMAGOTCHI MATRIX · LIVING CODE PET</span>
+    </div>
+    <span style={{ fontSize: 26, fontWeight: 800, color: '#FFFFFF', letterSpacing: -0.5 }}>Cyber Code Pet · Virtual Developer Companion</span>
+    <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.7)', marginTop: 6, letterSpacing: 1.5, textTransform: 'uppercase' }}>Fed by real contributions · Grows with weekly streaks · Powered by GitSkins</span>
+  </div>
+</div>
+```
+
+<br/>
+
+<!-- Interactive GitSkins Code Pet Virtual Device -->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/pet-device?username=swapnil3104&mode=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/pet-device?username=swapnil3104&mode=light">
+  <img alt="Swapnil's Cyber Code Pet Virtual Device" src="https://www.gitskins.com/api/section/pet-device?username=swapnil3104&mode=dark" width="100%">
+</picture>
+
+<br/><br/>
+
+<!-- Interactive GitSkins 26-Week Care Log -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.gitskins.com/api/section/pet-log?username=swapnil3104&mode=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/pet-log?username=swapnil3104&mode=light">
+  <img alt="Swapnil's Code Pet 26-Week Care Log" src="https://www.gitskins.com/api/section/pet-log?username=swapnil3104&mode=dark" width="100%">
+</picture>
+
+</div>
+
+<br/>
+
+> ### 🐾 Companion Care Protocol & Evolution Mechanics
+> 
+> My pet grows with my real GitHub activity & engineering momentum:
+> - 🥩 **Feeding Routine:** Every commit, PR, and repo interaction feeds the pet with fresh code energy.
+> - 📈 **Evolution Meter:** Maintaining a **13-week streak** fills its growth gauge to evolve into higher forms.
+> - ✨ **Hyper-Glow:** A full **52-week year** of consistent contributions unlocks the legendary permanent neon aura.
+> - 💤 **Rest Cycle:** Two consecutive inactive weeks put the pet to sleep until my next commit awakens it.
+> 
+> <sub>🐾 Interactive virtual pet template designed by [GitSkins](https://gitskins.com/templates/code-pet) &bull; Live synced with [@swapnil3104](https://github.com/swapnil3104)</sub>
+
+<br/>
+
+<!-- Animated SVG Theme-Aware Section Divider -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./divider_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./divider_light.svg">
+  <img alt="Section Divider" src="./divider_dark.svg" width="100%">
+</picture>
+
 ### 📊 GitHub Activity & Performance Metrics
 
 <!-- Streak Card -->
